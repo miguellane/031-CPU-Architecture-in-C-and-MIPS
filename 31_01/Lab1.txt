@@ -1,0 +1,12 @@
+Q01) -c tells GCC to put the output into an object file rather than run linker.
+Q02) -o tells the filetype of the output file.
+Q03) gdb output0
+Q04) break main
+Q05) run
+Q06) step
+Q07) 32 bits
+Q08) 64 bits
+Q09) The sizes are the same.
+Q10) -2147483648. Because there is no positive equivalant for the negated most negative number. The bits switch from 1_0*31  to (0_1*31) +1 which resets it back to 1_0*31 which is the same number.
+
+

@@ -1,0 +1,6 @@
+Q1) The printf statement is attempting to print an array with no arguments to indicate string.
+Q2) Correctly change printf(s) into printf("%s",s) to indicate string.
+Q3) gdb prog
+	Java is ran on it's own environment so it may do its own checks, while C++ runs straight after compilation onto the machine.
+Q4) Con of dumb array: User error or misunderstanding can cause bugs,
+	Pro of dumb array: Less work by machine for array marks and checks, data and memory may be manipulated in greater depth.

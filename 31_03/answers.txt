@@ -1,0 +1,49 @@
+C1. What areas of memory (heap or stack) are affected by the statement ?
+C2. Does any memory get allocated or freed?
+C3. If C2 is true then where is this memory?
+C4. Does the statement result in a memory leak?
+
+L06 C1)
+L06 C2)
+L06 C3)
+L06 C4)
+
+L07 C1)
+L07 C2)
+L07 C3)
+L07 C4)
+
+L08 C1)
+L08 C2)
+L08 C3)
+L08 C4)
+
+L10 C1)
+L10 C2)
+L10 C3)
+L10 C4)
+
+L11 C1)
+L11 C2)
+L11 C3)
+L11 C4)
+
+L12 C1)
+L12 C2)
+L12 C3)
+L12 C4)
+
+L13 C1)
+L13 C2)
+L13 C3)
+L13 C4)
+
+L14 C1)
+L14 C2)
+L14 C3)
+L14 C4)
+
+L15 C1)
+L15 C2)
+L15 C3)
+L15 C4)

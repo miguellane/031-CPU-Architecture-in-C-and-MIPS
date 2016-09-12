@@ -1,0 +1,17 @@
+Miguel Lane
+
+	Q1)
+.data is used for declarations. .word is used to allocate and initialize space for a variable. .text is used for assembly instructions.
+	Q2)
+GUI set command break checkboxes on side of each text line.
+	Q3)
+GUI set command green play buttons on top menu or F5 F7.
+	Q4)
+To find the contents of a register, break at the point you wish to know contents and it will be displayed on the GUI for you. To modify you can also directly change off of the GUI while on break.
+	Q5)
+n = 0x10010000
+Answer: 233
+	Q6)
+li loads $v0 with a numbers that will call a specific function with syscall
+syscall ($v0 = 1) prints an int of $a0
+syscall ($v0 = 10) exits the program

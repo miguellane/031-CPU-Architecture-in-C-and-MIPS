@@ -1,0 +1,17 @@
+Q1) run
+Q2) run [args]
+Q3) break [line]
+Q4) break ... if [exp]
+Q5) n
+Q6) s
+Q7) c
+Q8) print [/f] [exp]
+Q9) display [/f] [exp]
+Q10) display
+Q11) quit
+Q12) The array of characters is padded for up to the 16th byte, but when trying to append 2 arrays with a size greater than or equal to 16bytes, the null terminating byte is not read and it automatically adds the address that exists after it until the next terminating byte.
+Q13)
+Q14)
+Q15)
+
+$ gcc -c -g appendTest appendTest.c

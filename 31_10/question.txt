@@ -1,0 +1,10 @@
+1. Seq with a stride of 8. Ex: 00 08 00 08
+2. Seq which uses all mem caches in order, then loops. EX: 88 80 78 70 68 ... 10 08 00 -> 88 80 78 70 68 ...
+3. 1ns is hit avg
+4. 3ns is miss avg
+5. 524288 because that is the highest array size until the read-writes no longer increase and are sent to L2.
+6. 128 because that is the stride at which read-writes begin to flattin out.
+7. 1ns
+8. 4ns
+9. 524288 because that is the highest array size until the read-writes no longer increase and are sent to L2.
+10.128 because that is the stride at which read-writes begin to flattin out.

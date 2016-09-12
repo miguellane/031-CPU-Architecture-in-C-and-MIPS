@@ -1,0 +1,5 @@
+	Q1)
+Buggy swap could still work if the memory at that location was not currently in use by another program, if there was memory occupying it from another program it would fail.
+	Q2)
+We can guarantee that the swap will crash since we place a non-valid address onto the stack.
+

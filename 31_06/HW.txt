@@ -1,0 +1,27 @@
+	Q1)
+2 incorrect byte addition, and 1 loop implementation with value being 0.
+	Q2)
+I changed the logic to correctly represent intent.
+	Q3)
+First run program and look at result. Then do a line-per-line analysis of problem areas that may have faulty logic while looking at address values.
+	Q4)
+Source starts as a global variable.
+	Q5)
+Dest space is grabbed from the stack.
+	Q6)
+la	$9,source
+la	$10,dest
+	Q7)
+Line 34 at $L6 to Line 45 before $L8
+	Q8)
+addu	$8,$8,1		Pre-emptive increment word copy counter.	prek++;
+sll	$3,$8,2		Mult prek by 4 for use in mem addressing.	[k]	
+addu	$5,$7,$9	Add index k to pointer of source.		&source[k]
+addu	$2,$3,$9	Add index prek to pointer of source.		&source[prek]
+addu	$6,$7,$10	Add index k to pointer of dest.			&dest[k]
+lw	$4,0($2)	Grabs a compare-only value for loop cond.	source[prek]
+move	$7,$3		New k = preemtpive k.				k = prek; || k++;
+lw	$3,0($5)	Grabs value at *source+k			... = source[k]
+#nop			Nada.
+sw	$3,0($6)	Saves value at *dest+k				dest[k] = source[k]			
+bne	$4,$0,$L6	If source[prek] != 0 continue loop.		for(...; source[k]!=0; ...){...}
